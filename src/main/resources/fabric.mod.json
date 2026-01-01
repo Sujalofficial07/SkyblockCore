@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "skyblockcore",
+  "version": "${version}",
+  "name": "Skyblock Core",
+  "description": "Core logic for Modular Skyblock",
+  "authors": ["Sujal"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/skyblockcore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sujal.skyblockcore.SkyblockCore"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
