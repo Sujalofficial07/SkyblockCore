@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "skyblockcore",
+  "version": "${version}",
+  "name": "Skyblock Core",
+  "description": "Core library for SkyblockSingle project. Handles data and APIs.",
+  "authors": [
+    "Sujal"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/skyblockcore/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sujal.skyblockcore.SkyblockCore"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
